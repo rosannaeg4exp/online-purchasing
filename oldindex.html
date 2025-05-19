@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    window.onload = function() {
+      const urls = [
+        "https://link.webropolsurveys.com/S/3F72122B3ABF0F75",
+        "https://link.webropolsurveys.com/S/E0BCA92D2A45A7E0",
+        "https://link.webropolsurveys.com/S/7A79EF72DDE130A9",
+        "https://link.webropolsurveys.com/S/5A0BE5A317EF0649"
+      ];
+      const randomUrl = urls[Math.floor(Math.random() * urls.length)];
+      window.location.href = randomUrl;
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting you to a survey version...</p>
+</body>
+</html>
